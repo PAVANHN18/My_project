@@ -1,3 +1,4 @@
+
 name: Python CI
 
 on:
@@ -26,5 +27,5 @@ jobs:
 
       - name: Run Tests
         run: |
-          tests/pytest tests/
+           tests/test_main.py
 
