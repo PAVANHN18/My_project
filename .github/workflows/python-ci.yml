@@ -27,5 +27,5 @@ jobs:
 
       - name: Run Tests
         run: |
-           tests/test_main.py
+          pytest tests/test_main.py
 
